@@ -11,6 +11,7 @@ h1 {
  font-family: "Oleo Script";
  font-size: 4rem;
  line-height: 1.5;
+ padding: 5% 0% 10% ;
 
 }
 h2{
@@ -21,7 +22,7 @@ h2{
 
 .container-fluid {
 /** 3% padding to the top and bottom and 15% to the left and the right **/
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 
 }
 
@@ -52,16 +53,22 @@ h2{
 
 
 /* Title Images */
+.image-iphone {
+  position: relative;
+}
 
  .title-image {
   width: 50%;
-  transform: rotate(27deg)
+  transform: rotate(20deg);
+  position: absolute;
 }
 
 
 /* FEATURE BOXXX */
 #features {
   padding: 7% 15%;
+  background-color: white;
+  position: relative;
 }
 
 p {
@@ -72,8 +79,7 @@ p {
 
 .feature-box {
   text-align: center;
-  font-size: 1.5rem;
-  padding: 0% 6%
+  padding: 4.5%
 }
 
 .icon {
@@ -111,4 +117,19 @@ padding : 7% 0%
 
 .carousel-item {
   padding: 7% 15%;
+}
+
+
+/* PRICING SECTIONNNNNNN */
+
+
+
+#pricing {
+padding:100px;
+text-align: center;
+
+}
+
+.pricing-colomn {
+  padding: 3% 2%;
 }
