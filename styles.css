@@ -3,22 +3,33 @@ body {
 }
 
 
-#title {
-  background-color: #ff4c68
-}
 
-h1 {
- font-family: "Oleo Script";
- font-size: 4rem;
- line-height: 1.5;
- padding: 5% 0% 10% ;
-
-}
 h2{
   font-family: "Ubuntu";
   font-weight: bold;
   font-size: 2.2rem;
 }
+
+p {
+  color: #839AA8;
+  font-family: Ubuntu;
+  font-weight: bold;
+}
+
+/* HEADINGS */
+.big-heading {
+  font-family: "Oleo Script";
+  font-size: 4rem;
+  line-height: 1.3;
+
+}
+
+
+#title {
+  background-color: #ff4c68
+}
+
+
 
 .container-fluid {
 /** 3% padding to the top and bottom and 15% to the left and the right **/
@@ -51,7 +62,6 @@ h2{
   margin: 5% 3% 5% 0 ;
 }
 
-
 /* Title Images */
 .image-iphone {
   position: relative;
@@ -71,11 +81,7 @@ h2{
   position: relative;
 }
 
-p {
-  color: #839AA8;
-  font-family: Ubuntu;
-  font-weight: bold;
-}
+
 
 .feature-box {
   text-align: center;
@@ -132,4 +138,51 @@ text-align: center;
 
 .pricing-colomn {
   padding: 3% 2%;
+}
+
+
+@media (max-width : 1200px){
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+.title-image {
+   position: static;
+   transform: rotate(0);
+
+
+}
+}
+
+
+
+/* CALL TO ACTION */
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 8%;
+}
+.footer {
+  font-family: "Ubuntu";
+  font-weight : bold;
+}
+
+.footer-btn {
+ margin: 10px ;
+}
+
+#footer {
+  text-align: center;
+  padding: 5% 0;
+}
+
+/* FOOTER ICONS */
+.icon-ft {
+  padding: 3% 2%;
+  font-size: 2rem;
+}
+.icon-ft:hover {
+  color: #ef8172
 }
